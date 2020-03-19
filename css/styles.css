@@ -1,0 +1,30 @@
+body {
+    width: 75%;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 35%;
+}
+
+
+/******************************
+Main Container/Wrapper
+******************************/
+main {
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  /******************************
+  Biography
+  ******************************/
+  .bio {
+    text-align: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+  
+  #rando-image {
+   
+  }
