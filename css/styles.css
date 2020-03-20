@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans&display=swap');
+
+/******************************
+General Styling and Fonts
+******************************/
 body {
     width: 90%;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: seagreen;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 /******************************
@@ -30,8 +52,8 @@ p {
 }
 
 .desc {
-  font-size: 1.2rem;
-  width: 60%;
+  font-size: 1rem;
+  width: 58%;
   margin-left: 1.5rem;
   vertical-align:top;
 }
@@ -43,7 +65,11 @@ a img {
   width: 216px;
   margin-right: 2rem;
   margin-bottom: 5rem;
+  transition: opacity .75s;
+}
 
+a img:hover {
+  opacity: .7;
 }
 
 .galleryContainer {
@@ -51,13 +77,73 @@ a img {
   align-items: center;
 }
 
+
 /******************************
-  Lightbox Gallery
+  Contact
 ******************************/
-form {
+footer {
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(5, 150, 181, 0),
+    35%,
+    rgba(5, 150, 181, 1) 
+    );
+  /* background: #0596b5; */
+  color: white;
+  padding: 1.5rem;
+}
+
+.contact {
+  color: white;
+}
+
+/* form {
   background-image: url(../img/matcha.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 1rem;
-  color: white;
+} */
+
+
+/******************************
+  Media Queries
+******************************/
+
+/* Mobile 
+  0 to 26em (416 pixels)
+*/
+@media only screen and (min-width: 0) { 
+    
 }
+
+
+/* Tablet 
+  26em (416 pixels) to 72em (1,152 pixels)
+*/
+@media only screen and (min-width: 26em)  {
+
+}
+
+
+/* Desktop 
+   72em (1,152 pixels) to 90em (1440 pixels)
+*/
+@media screen and (min-width: 72em)  { 
+
+}
+
+
+/* Wide Desktop: 
+  Greater than 90em (1440px)
+*/
+@media screen and (min-width: 90em) { 
+  .me {
+    width: 7%;
+  }
+
+
+  .desc {
+    width: 10%;
+  }
+}
+
