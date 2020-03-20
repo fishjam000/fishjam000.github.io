@@ -23,4 +23,5 @@ I am passionate about designing, eating food, and telling bad puns. I am fueled 
 * [Normalize](https://necolas.github.io/normalize.css/)
 * [Lightbox Gallery](https://sachinchoolur.github.io/lightgallery.js/docs/)
 * [Google Font](https://fonts.google.com/)
-* [Favicon](Edited from a Photo by Jason Leung on Unsplash https://unsplash.com/photos/Z-hvocTfR_s)
+* [Favicon/Image](Edited from a Photo by Jason Leung on Unsplash https://unsplash.com/photos/Z-hvocTfR_s)
+* [Background Image](Photo by resul on Unsplash https://unsplash.com/photos/DbwYNr8RPbg)
