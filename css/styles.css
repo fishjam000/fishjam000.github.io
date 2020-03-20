@@ -1,12 +1,7 @@
 body {
-    width: 75%;
-    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
 }
-
-img {
-    width: 35%;
-}
-
 
 /******************************
 Main Container/Wrapper
@@ -14,17 +9,55 @@ Main Container/Wrapper
 main {
     margin: 0 auto;
     padding: 1em;
-  }
+}
   
-  /******************************
+/******************************
   Biography
-  ******************************/
-  .bio {
-    text-align: center;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-  }
-  
-  #rando-image {
-   
-  }
+******************************/
+.bio {
+  display: flex;
+  margin: 0;
+  margin-bottom: 5rem;
+}
+
+.me {
+  width: 27%;
+  height: 27%;
+}
+
+p {
+  margin-top: 0;
+}
+
+.desc {
+  font-size: 1.2rem;
+  width: 60%;
+  margin-left: 1.5rem;
+  vertical-align:top;
+}
+
+/******************************
+  Lightbox Gallery
+******************************/
+a img {
+  width: 216px;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+
+}
+
+.galleryContainer {
+  display: flex;
+  align-items: center;
+}
+
+/******************************
+  Lightbox Gallery
+******************************/
+form {
+  background-image: url(../img/matcha.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  color: white;
+}
