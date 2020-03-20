@@ -18,6 +18,9 @@
   <!-- Normalize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
+  <!-- Library Styling -->
+  <link rel="stylesheet" href="css/lightgallery.css">
+
   <!-- Stylesheet   -->
   <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
@@ -35,16 +38,28 @@
     
     <section class="bio">
 
-        <img src="img/me.png" alt="Joanna Phan">
-      
-      <p>Hello! I am majoring in Visual Communication Design, with a UX certificate! I am passionate about coming up with innovative design solutions. I love publishing and product design; 
-        designing print materials is my favorite! I also like to do UX/UI design as well as web design! I wish to explore more of the digital facets of design. I also love drawing! 
-        It’s been a lifelong passion of mine. My favorite mediums are traditional, but I can also do digital illustration! I am proficient at the Adobe Creative Suite, with Illustrator as my favorite program.
-        My goal is to incorporate sustainability in my designs as much as I can, whether it’s spreading awareness or being mindful of the materials used. 
-        Being sustainable and eco-friendly is very important to me, and I am excited to be able to include them in design! I want to be able to use my own voice to create change. 
-        It’s also a goal of mine to be able to create designs and art that bring joy to people.
-        I am passionate about designing, eating food, and telling bad puns. I am fueled by matcha green tea. 
+      <img class="me" src="img/me.png" alt="Joanna Phan">
+
+      <div class ="desc">
+
+        <p>
+          Hello! I am majoring in Visual Communication Design, with a UX certificate! I am passionate about coming up with innovative design solutions. I love publishing and product design; 
+          designing print materials is my favorite! I also like to do UX/UI design as well as web design! I wish to explore more of the digital facets of design. I also love drawing! 
+          It’s been a lifelong passion of mine. My favorite mediums are traditional, but I can also do digital illustration! I am proficient at the Adobe Creative Suite, with Illustrator as my favorite program.
+          I am passionate about designing, eating food, and telling bad puns. I am fueled by matcha green tea. 
+        </p> 
+
+        <p>
+          Currently, I am interning at the EWU Institute for Public Policy & Economic Analysis as well as at Sixth Avenue Pharmacy as their Visual Design intern. 
         </p>
+        
+        <p>
+          My goal is to incorporate sustainability in my designs as much as I can, whether it’s spreading awareness or being mindful of the materials used.
+          Being sustainable and eco-friendly is very important to me, and I am excited to be able to include them in design! I want to be able to use my own voice to create change. 
+          It’s also a goal of mine to be able to create designs and art that bring joy to people. I want to be able to work with all kinds of design mediums in my career.
+        </p>
+
+    </div>
 
     </section>
     
@@ -54,30 +69,35 @@
  <!-- Lightbox Gallery -->
  <div id="galleryContainer">
       
-  <h3>Portfolio</h3>
+  <h2>My Portfolio</h2>
 
-  <a href="img/fullsize/fullsize-1.png">
-    <img src="img/thumbs/thumb-1.png" alt="Thumbnail">
+  <a href="img/James_Blunt_Album.png">
+    <img src="img/James_thumbnail.png" alt="Thumbnail">
   </a>
 
-  <a href="img/fullsize/fullsize-2.png">
-    <img src="img/thumbs/thumb-2.png" alt="Thumbnail">
+  <a href="img/PhanJoanna_Movie_Poster.png">
+    <img src="img/movie_thumbnail.png" alt="Thumbnail">
   </a>
 
-  <a href="img/fullsize/fullsize-3.png">
-    <img src="img/thumbs/thumb-3.png" alt="Thumbnail">
+  <a href="img/PhanJ_Product_Photo_1.jpg">
+    <img src="img/Product_thumbnail.png" alt="Thumbnail">
+  </a>
+
+  <a href="img/Google_Doodle.png">
+    <img src="img/Google_Doodle_thumbnail.png" alt="Thumbnail">
   </a>
 
 </div>
 
 
     <footer>
-      <p>&copy; Additional footer info.</p>
-
 
       <!-- CONTACT FORM -->
-      <form name="My Contact Form" method="POST" data-netlify="true"
-      data-netlify-recaptcha="true">
+      <h2>Contact Me</h2>
+      <form name="Contact" 
+        method="POST" 
+        data-netlify="true"
+        data-netlify-recaptcha="true">
 
         <p>
           <label>Your Name: <input type="text" name="name" required/></label>   
@@ -103,6 +123,7 @@
       
       </form>
       
+      <p>&copy; Additional footer info.</p>
 
 
     </footer>
@@ -112,6 +133,15 @@
 
 
   </main>
+
+  <!-- JS Libraries -->
+  <script src="js/lightgallery.js"></script>
+
+  <!-- Optional Plugins for JS Libraries -->
+
+  <!-- My Scripts. Always last. -->
+  <script src="js/scripts.js"></script>
+
   
 </body>
 </html>
